@@ -18,8 +18,7 @@ if [ ! -f "$path" ]; then
 	exit
 fi
 
-echo "
-[Unit]
+echo "[Unit]
 Description=$name
 After=multi-user.target
 
